@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.header{
+    height: 20vh;
+    width: 100%;
+    background-color: rgba(89, 161, 238, 0.5);
+    text-align: center;
+    line-height: 150px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.main-section{
+    height: 80vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.box-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    border: 1px solid red ;
+    text-align: center;
+    line-height:200px ;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: pink;
+
+
+}
+.side-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.side-bar div span{
+    display:block;
+    font-size: 50px;
+    text-align: center;
+}
+.tow {
+    color: rgba(1, 36, 6, 0.8);
+}
+button{
+    padding: 15px 50px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgba(40, 8, 85, 0.833);
+
+}
+button:hover{
+    background-color: rgb(61, 75, 228);
+    color: white;
+
+}
+input[type="text"]{
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgba(33, 6, 70, 0.872);
+
+}
+
+
